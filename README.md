@@ -6,6 +6,8 @@
 
 This project involved analyzing a dataset related to various banks across different states and cities. The objective was to explore the dataset, extract key insights, and create visualizations and dashboards that summarize financial metrics, such as the total number of banks, total funds, and their distribution by location. The data was provided by one of my instructors.
 
+**_Disclaimer_** : All datasets and reports do not represnt any company, institution or country, but just a dummy to demonstrate capabilities of Excel.
+
 
 ### Project Objectives
 - Analyze bank distribution by state and city
@@ -16,7 +18,8 @@ This project involved analyzing a dataset related to various banks across differ
   
 - Create interactive visualizations that enable stakeholders to quickly grasp key performance indicators (KPIs)
 
-![](line-chart.jpg)
+
+
 
 
 ### Exploratory Data Analysis (EDA)
@@ -47,6 +50,13 @@ These preliminary insights guided the creation of visualizations and dashboards.
   
 - Line Chart Visualization: Created a line chart to represent the total number of banks by state.
 
+![Line chart](https://github.com/user-attachments/assets/ed4d8fbd-90b6-41e6-b8e7-435c8e762c39)
+---
+
+
+
+![Pivot Table](https://github.com/user-attachments/assets/6adc369c-5f86-499c-9130-82bc8d99c800)
+---
 
 ## Dashboard Creation
 
@@ -70,11 +80,19 @@ The following KPIs and insights were summarized on the dashboard:
 - Pie Chart: Top 5 cities with the highest number of banks
 
 
+
+
+
+![Dashboard](https://github.com/user-attachments/assets/eea7e7ef-3180-4261-a5fd-5d1515986e63)
+---
+
+
+
 ### Formulas and Calculations
 
-- COUNTA UNIQUE: Used to calculate the total number of banks and states.
+- COUNTA UNIQUE: Used to calculate the total number of banks and states. =COUNTA(UNIQUE(State )), =COUNTA((Bank Name)).
   
-- SUM: Used to determine total funds for the KPIs.
+- SUM: Used to determine total funds for the KPIs. =SUM(Fund)
 
 
 ### Visual Enhancements and Refinements
