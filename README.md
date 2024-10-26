@@ -16,7 +16,7 @@ This project involved analyzing a dataset related to various banks across differ
   
 - Create interactive visualizations that enable stakeholders to quickly grasp key performance indicators (KPIs)
 
-!{}()
+![](line-chart.jpg)
 
 
 ### Exploratory Data Analysis (EDA)
